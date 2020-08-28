@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Parlor</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Diego's Pizza Parlor</h1>
+    <p>Below please fill out which toppings you would like on your pizza!</p>
+    <div class="row">
+      <div class="col-md-6">
+        <hr>
+        <h2>Crust</h2>
+      </div>
+        <form id="crust">
+          <div class="form-group">
+            <p>What type of crust would you like on your pizza?</p>
+            <select class="form-control" id="crust">
+              <option>Normal</option>
+              <option>Stuffed with cheese</option>
+              <option>Garlic</option>
+              <option>Thin</option>
+            </select>
+          </div>
+        </form>
+        <form id="sauce">
+          <div class="form-group">
+            <p>What type of sauce would you like on your pizza?</p>
+            <select class="form-control" id="sauce">
+              <option>Red Sauce</option>
+              <option>White Sauce</option>
+              <option>Barbeque Sauce</option>
+              <option>No Sauce</option>
+            </select>
+          </div>
+        </form>
+        <form id="cheese">
+          <div class="form-group">
+            <p>How much cheese would you like?</p>
+            <input type="checkbox" name="cheese-type" value="normal"> Normal <br>
+            <input type="checkbox" name="cheese-type" value="less-normal"> less than normal <br>
+            <input type="checkbox" name="cheese-type" value="extra"> Extra <br>
+            <input type="checkbox" name="cheese-type" value=""
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
