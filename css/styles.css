@@ -1,3 +1,12 @@
 #pizza-order{
   display: none;
 }
+
+.container {
+background: rgb(251,246,63);
+background: radial-gradient(circle, rgba(251,246,63,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+body{
+  background: url(/img/pizza-pattern_71593-277.jpg);
+}

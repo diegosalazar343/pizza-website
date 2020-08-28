@@ -21,6 +21,7 @@ $(document).ready(function() {
     const size = parseInt($("#size").val());
     const crust = parseInt($("#crust").val());
     const sauce = parseInt($("#sauce").val());
+    // do I have to add $("input#")
     $("input:checkbox[name=cheese-type]:checked").each(function () {
       const cheeseType = parseInt($(this).val());
       pizzaOrder.push(cheeseType);
@@ -47,5 +48,6 @@ $(document).ready(function() {
       $("#pizzaOrder").show();
       $("#total").text("20 dollars");
     }
+      console.log(total);
   });
 });
