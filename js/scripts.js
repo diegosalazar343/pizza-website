@@ -31,7 +31,7 @@ $(document).ready(function() {
     })
     $("input:checkbox[name=non-meat-type]:checked").each(function () {
       const nonMeatType = parseInt($(this).val());
-      pizzaOrder.push(noneMeatType);
+      pizzaOrder.push(nonMeatType);
     })
 
     if(total === "7 dollars") {
