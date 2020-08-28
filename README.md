@@ -14,10 +14,20 @@ Output:"select: red sauce"
 
 * _Spec: Create checkboxes for option that can have more than one pizza topping.
 Input: "Meats: bacon, sausage, ham, chicken"
-Output:" select: ham and chicken"
+Output:"select: ham and chicken"
 
 * _Spec: Create values for each option that will determine the total price."
-Input: "Sauces:
+Input: "Sauces: "red sauce - value 1, white sauce - value 1, no sauce - value 0."
+Output: select: "red sauce - value 1"
+
+* _Spec: Add those values together to find out how much the total pizza cost
+Input: "pizza: "red sauce - value 1; stuffed crust -value 2; normal cheese - value 1; ham and sausage value 2; mushrooms - value 1."
+Output: "pizza total- 6 dollars
+
+* _Spec: Have three values and if total values are >= to them then the total pizza will cost that much.
+Input: "if >= 7, if else >=14, else >=20
+Output: pizza value total is 10 --> pizza total cost is 14 dollars.
+
 
 ## Setup
 * _Clone the github repo_
