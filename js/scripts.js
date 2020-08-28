@@ -1,10 +1,9 @@
 //Business Logic
-
+function determinePrice()
 
 //User Logic
 $(document).ready(function() {
   let pizzaOrder = [];
-  event.preventDefault();
   const size = $("#size").val();
   const crust = $("#crust").val();
   const sauce = $("#sauce").val();
@@ -20,4 +19,4 @@ $(document).ready(function() {
     const nonMeatType = $(this).val();
     pizzaOrder.push(noneMeatType);
   })
-}
+})

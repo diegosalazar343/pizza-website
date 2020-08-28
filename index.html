@@ -19,10 +19,10 @@
           <div class="form-group">
             <p>What size pizza would you like?</p>
             <select class="form-control" id="size">
-              <option>Small</option>
-              <option>Normal</option>
-              <option>Large</option>
-              <option>Extra large</option>
+              <option value="1">Small</option>
+              <option value="2">Normal</option>
+              <option value="3">Large</option>
+              <option value="4">Extra large</option>
             </select>
           </div>
         </form>
@@ -31,10 +31,10 @@
           <div class="form-group">
             <p>What type of crust would you like on your pizza?</p>
             <select class="form-control" id="crust">
-              <option>Normal</option>
-              <option>Stuffed with cheese</option>
-              <option>Garlic</option>
-              <option>Thin</option>
+              <option value="1">Normal</option>
+              <option value="2">Stuffed with cheese</option>
+              <option value="2">Garlic</option>
+              <option value="1">Thin</option>
             </select>
           </div>
         </form>
@@ -44,10 +44,10 @@
           <div class="form-group">
             <p>What type of sauce would you like on your pizza?</p>
             <select class="form-control" id="sauce">
-              <option>Red Sauce</option>
-              <option>White Sauce</option>
-              <option>Barbeque Sauce</option>
-              <option>No Sauce</option>
+              <option value="1">Red Sauce</option>
+              <option value="1">White Sauce</option>
+              <option valie="1">Barbeque Sauce</option>
+              <option valie="0">No Sauce</option>
             </select>
           </div>
         </form>
@@ -56,10 +56,10 @@
         <form id="cheese">
           <div class="form-group">
             <p>How much cheese would you like?</p>
-            <input type="checkbox" name="cheese-type" value="normal"> Normal <br>
-            <input type="checkbox" name="cheese-type" value="half"> Half <br>
-            <input type="checkbox" name="cheese-type" value="double"> Double <br>
-            <input type="checkbox" name="cheese-type" value="Parmesan"> Parmesan <br>
+            <input type="checkbox" name="cheese-type" value="1"> Normal <br>
+            <input type="checkbox" name="cheese-type" value="1"> Half <br>
+            <input type="checkbox" name="cheese-type" value="2"> Double <br>
+            <input type="checkbox" name="cheese-type" value="1"> Parmesan <br>
           </div>
         </form>
         <hr>
@@ -67,11 +67,11 @@
         <form id="meat">
           <div class="form-group">
             <p>What kind of Meat would you like on your pizza?</p>
-            <input type="checkbox" name="meat-type" value="chicken"> Chicken <br>
-            <input type="checkbox" name="meat-type" value="sausage"> Sausage <br>
-            <input type="checkbox" name="meat-type" value="bacon"> Bacon <br>
-            <input type="checkbox" name="meat-type" value="pepperoni"> Pepperoni <br>
-            <input type="checkbox" name="meat-type" value="ham"> Ham <br>
+            <input type="checkbox" name="meat-type" value="1"> Chicken <br>
+            <input type="checkbox" name="meat-type" value="1"> Sausage <br>
+            <input type="checkbox" name="meat-type" value="1"> Bacon <br>
+            <input type="checkbox" name="meat-type" value="1"> Pepperoni <br>
+            <input type="checkbox" name="meat-type" value="1"> Ham <br>
           </div>
         </form>
         <hr>
@@ -79,18 +79,20 @@
         <form id="non-meat">
           <div class="form-group">
             <p>What kind of non-meat toppings would you like on your pizza?</p>
-            <input type="checkbox" name="non-meat-type" value="tomatoes"> Tomatoes <br>
-            <input type="checkbox" name="non-meat-type" value="mushrooms"> Mushrooms <br>
-            <input type="checkbox" name="non-meat-type" value="jalepeno"> Jalapeño peppers <br>
-            <input type="checkbox" name="non-meat-type" value="Banana-peppers"> Banana peppers <br>
-            <input type="checkbox" name="non-meat-type" value="pineapple"> Pineapple <br>
+            <input type="checkbox" name="non-meat-type" value="1"> Tomatoes <br>
+            <input type="checkbox" name="non-meat-type" value="1"> Mushrooms <br>
+            <input type="checkbox" name="non-meat-type" value="1"> Jalapeño peppers <br>
+            <input type="checkbox" name="non-meat-type" value="1"> Banana peppers <br>
+            <input type="checkbox" name="non-meat-type" value="1"> Pineapple <br>
           </div>
           <button type="submit"> Submit Pizza Order </button>
         </form>
+        <div class="container">
         <div class="col-md-10">
           <div id="pizza-order">
             <p><b>This is your pizza that your ordered:</b></p>
             <p>Total: <span class="total"></span></p>
+            </div>
           </div>
         </div>
       </div>
